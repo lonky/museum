@@ -11,61 +11,200 @@
 <body>
     <header>
         <div class="wrapper">
-                <a href="index.html" class="logo"><img src="./assets/img/logo.svg" alt="Louvre">
-                    <p class="logo_title">Louvre</p>
-                </a>
-                <nav>
-
-                </nav>
+            <a href="index.html" class="logo"><img src="./assets/img/logo.svg" alt="Louvre">
+                <p class="logo_title">Louvre</p>
+            </a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#visiting">Visiting</a>
+                    </li>
+                    <li>
+                        <a href="#explore">Explore</a>
+                    </li>
+                    <li>
+                        <a href="#video">Video</a>
+                    </li>
+                    <li>
+                        <a href="#gallery">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="#tickets">Tickets</a>
+                    </li>
+                    <li>
+                        <a href="#contacts">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
 
     <main>
         <section class="welcome">
             <div class="wrapper">
-            <h1>Welcome<br>to the Louvre</h1>
-            </div>
+                <h1>Welcome<br>to the Louvre</h1>
+                <h4>From the castle to the museum</h4>
+                <button>Discover the Louvre</button>
+                <div class="welcome_pagination">
+                </div>
+                </div>
+                <img src="./assets/img/welcome-slider/1.jpg" alt="mona lisa">
         </section>
 
-        <section class="visiting">
+        <section class="visiting" id="visiting">
             <div class="wrapper">
-            <h2>Virtual tour</h2>
+                <h2>Virtual tour</h2>
+                <div class="card">
+                    <h5>Royal Palace</h5>
+                    <p class="card_description_360">360° Virtual Tour</p>
+                    <p class="card_description_panorama">Google Street Panorama View</p>
+                </div>
+                <div class="card">
+                    <h5>Denon Wing</h5>
+                    <p class="card_description_360">360° Virtual Tour</p>
+                    <p class="card_description_panorama">Google Street Panorama View</p>
+                </div>
+                <div class="card">
+                    <h5>Colonnade Perrault</h5>
+                    <p class="card_description_360">360° Virtual Tour</p>
+                    <p class="card_description_panorama">Google Street Panorama View</p>
+                </div>
+                <div class="card">
+                    <h5>Greek hall</h5>
+                    <p class="card_description_360">360° Virtual Tour</p>
+                    <p class="card_description_panorama">Google Street Panorama View</p>
+                </div>
+                <div class="card">
+                    <h5>Mona Lisa</h5>
+                    <p class="card_description_360">360° Virtual Tour</p>
+                    <p class="card_description_panorama">Google Street Panorama View</p>
+                </div>
+                <div class="card">
+                    <h5>Night Palace</h5>
+                    <p class="card_description_360">360° Virtual Tour</p>
+                    <p class="card_description_panorama">Google Street Panorama View</p>
+                </div>
             </div>
         </section>
 
-        <section class="explore">
+        <section class="explore" id="explore">
             <div class="wrapper">
             <h3>Picture explore</h3>
+                <div class="explore_description">
+                    <ul>
+                        <li>Las Meninas is a 1656 painting 
+                            by Diego Velázquez, the leading artist 
+                            of the Spanish Golden Age.</li>
+                        <li>It was cleaned in 1984 to 
+                            remove a "yellow veil" of dust that had 
+                            gathered since the previous restoration 
+                            in the 19th century.</li>
+                        <li>The cleaning provoked furious protests, 
+                            not because the picture had been damaged 
+                            in any way, but because it looked different.</li>
+                    </ul>
+                </div>
             </div>
         </section>
 
-        <section class="video">
+        <section class="video" id="video">
             <div class="wrapper">
-            <h2>Video journey</h2>
+                <h2>Video journey</h2>
+                <div class="video_description">
+                </div>
+                <div class="video_main">
+                    <video></video>
+                </div>
+                <div class="video_slider">
+
+                </div>
+                <div class="video_pagination">
+
+                </div>
             </div>
         </section>
         
-        <section class="gallery">
+        <section class="gallery" id="gallery">
             <div class="wrapper">
             <h3>Art Gallery</h3>
+            <div class="gallery_grid">
+
+            </div>
             </div>
         </section>
 
-        <section class="tickets">
+        <section class="tickets" id="tickets">
             <div class="wrapper">
             <h2>BUY TICKETS</h2>
+            <img>
+            <div class="tickets_type">
+                <p>Ticket Type</p>
+                <radio>Permanent exhibition</radio>
+                <radio>Temporary exhibition</radio>
+                <radio>Combined Admission</radio>
+            </div>
+            <div class="tickets_amount">
+                <p>Amount</p>
+                <p>Basic 18+</p>
+                <div class="tickets_plus_minus"></div>
+                <p>Senior 65+</p>
+                <div class="tickets_plus_minus"></div>
+                <p>Total</p>
+                <p>$220</p>
+            </div>
+            <button class="tickets_buy"></button>
+            </div>
+            <div class="tickets_parallax">
+                <img src="./assets/img/parallax.jpg" alt="parallax">
             </div>
         </section>
 
-        <section class="contacts">
+        <section class="contacts" id="contacts">
             <div class="wrapper">
             <h2>Contacts</h2>
+            <h6>Palais Royal<br>Musee du Louvre</h6>
+            <ul class="contacts_data">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <div class="contacts_map">
+
+            </div>
             </div>
         </section>
     </main>
 
     <footer>
-
+        <div class="wrapper">
+            <div class="footer_main">
+                <a href="index.html" class="logo"><img src="./assets/img/logo.svg" alt="Louvre">
+                <div class="footer_navigation">
+                    <ul>
+                        <li><a href="#visiting">Visiting</a></li>
+                        <li><a href="#explore">Explore</a></li>
+                        <li><a href="#video">Video</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#tickets">Tickets</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="footer_icons">
+                    <a href="index.html" class="footer_icon"><img src="./assets/img/logo.svg" alt="youtube">
+                    <a href="index.html" class="footer_icon"><img src="./assets/img/logo.svg" alt="instagram">
+                    <a href="index.html" class="footer_icon"><img src="./assets/img/logo.svg" alt="facebook">
+                    <a href="index.html" class="footer_icon"><img src="./assets/img/logo.svg" alt="twitter">
+                    <a href="index.html" class="footer_icon"><img src="./assets/img/logo.svg" alt="pinterest">
+                </div>
+            </div>
+            <div class="footer_credits">
+                <p>© 2021</p>
+                <p>The Rolling Scopes School</p>
+                <p>lonky</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

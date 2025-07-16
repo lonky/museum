@@ -8,9 +8,14 @@ h2,
 h3,
 h4,
 p {
-font-size: 1.6rem;
-font-family: "Forum", Verdana, sans-serif;
-margin: 0;
+    font-size: 1.6rem;
+    font-family: "Forum", "Roboto", Verdana, sans-serif;
+    margin: 0;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 1276px;
 }
 
 html {
@@ -59,6 +64,45 @@ h3 {
     /* 112.5% */
     letter-spacing: 5px;
     text-transform: uppercase;
+}
+
+h4 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+
+h5 {
+    color: #000;
+    font-family: Forum;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.card_description_360 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.card_description_panorama {
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
 }
 
 footer {
