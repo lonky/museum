@@ -9,13 +9,13 @@
     <title>Museum</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="wrapper">
             <a href="index.html" class="logo"><img src="./assets/img/logo.svg" alt="Louvre">
                 <p class="logo_title">Louvre</p>
             </a>
-            <nav>
-                <ul>
+            <nav class="header__navigation">
+                <ul class="navigation">
                     <li>
                         <a href="#visiting">Visiting</a>
                     </li>
@@ -42,47 +42,67 @@
     <main>
         <section class="welcome">
             <div class="wrapper">
+                <div class="welcome__content">
                 <h1>Welcome<br>to the Louvre</h1>
                 <h4>From the castle to the museum</h4>
-                <button>Discover the Louvre</button>
-                <div class="welcome_pagination">
-                </div>
+                <button class="welcome__button">Discover the Louvre</button>
                 </div>
                 <img src="./assets/img/welcome-slider/1.jpg" alt="mona lisa">
+                <div class="welcome__pagination">
+                </div>
+                </div>
         </section>
 
         <section class="visiting" id="visiting">
             <div class="wrapper">
                 <h2>Virtual tour</h2>
-                <div class="card">
-                    <h5>Royal Palace</h5>
+                <div class="visiting__layout-3-column">
+                <div class="visiting__card">
+                    <img src="./assets/img/visiting/royal.png" alt="royal place">
+                    <a href="https://www.google.com/maps/@48.8606882,2.3356791,3a,90y,328.36h,87.55t/data=!3m7!1e1!3m5!1sAF1QipMZ9YgnArbwEIbTDANeSQYFu9gNqpW_2Sv8FBvY!2e10!3e12!7i4352!8i1815">Royal Palace</a>
                     <p class="card_description_360">360° Virtual Tour</p>
                     <p class="card_description_panorama">Google Street Panorama View</p>
                 </div>
-                <div class="card">
-                    <h5>Denon Wing</h5>
+                <div class="visiting__card">
+                    <img src="./assets/img/visiting/denon.png" alt="denon wing">
+                    <a href="https://www.google.com/maps/@48.8563254,2.3352706,3a,75y,90t/data=!3m7!1e1!3m5!1sAF1QipNRj_CwP4coDMYdCHj6qHeBeJpI2VxU5BUsOX4F!2e10!3e12!7i11000!8i5500">
+                        Denon Wing
+                    </a>
                     <p class="card_description_360">360° Virtual Tour</p>
                     <p class="card_description_panorama">Google Street Panorama View</p>
                 </div>
-                <div class="card">
-                    <h5>Colonnade Perrault</h5>
+                <div class="visiting__card">
+                    <img src="./assets/img/visiting/colonnade.png" alt="colonnade perrault">
+                    <a href="https://www.google.com/maps/@48.8601723,2.3395439,3a,88.4y,322.04h,84.25t/data=!3m7!1e1!3m5!1sAF1QipNMZGQuEA-pAUvIG_eP_2f3gWTKZEJ6XLVJ-Pgb!2e10!3e12!7i10240!8i5120">
+                        Colonnade Perrault
+                    </a>
                     <p class="card_description_360">360° Virtual Tour</p>
                     <p class="card_description_panorama">Google Street Panorama View</p>
                 </div>
-                <div class="card">
-                    <h5>Greek hall</h5>
+                <div class="visiting__card">
+                    <img src="./assets/img/visiting/hall.png" alt="greek hall">
+                    <a href="https://www.google.com/maps/@48.860183,2.3356156,3a,90y,177.69h,95.61t/data=!3m7!1e1!3m5!1sAF1QipP7uFZnTITRe-7AEVAgHAfqiCL-03gvBHcYWgF3!2e10!3e12!7i5472!8i2736">
+                        Greek hall
+                    </a>
                     <p class="card_description_360">360° Virtual Tour</p>
                     <p class="card_description_panorama">Google Street Panorama View</p>
                 </div>
-                <div class="card">
-                    <h5>Mona Lisa</h5>
+                <div class="visiting__card">
+                    <img src="./assets/img/visiting/mona.png" alt="mona lisa">
+                    <a href="https://www.google.com/maps/@48.8598788,2.3355157,3a,82.2y,7.53h,94t/data=!3m7!1e1!3m5!1sAF1QipO1wkUUbyzpPjj-OR0mR5etZJT-xl-40XK8rDQ3!2e10!3e12!7i10240!8i5120">
+                        Mona Lisa
+                    </a>
                     <p class="card_description_360">360° Virtual Tour</p>
                     <p class="card_description_panorama">Google Street Panorama View</p>
                 </div>
-                <div class="card">
-                    <h5>Night Palace</h5>
+                <div class="visiting__card">
+                    <img src="./assets/img/visiting/night.png" alt="night place">
+                    <a href="https://www.google.com/maps/@48.8563254,2.3352706,3a,90y,21.26h,79.91t/data=!3m7!1e1!3m5!1sAF1QipPpGAowYatVyk3MMGnZAaQkYm2EUk-Dlca06SS5!2e10!3e12!7i11304!8i5652">
+                        Night Palace
+                    </a>
                     <p class="card_description_360">360° Virtual Tour</p>
                     <p class="card_description_panorama">Google Street Panorama View</p>
+                </div>
                 </div>
             </div>
         </section>
@@ -90,33 +110,36 @@
         <section class="explore" id="explore">
             <div class="wrapper">
             <h3>Picture explore</h3>
-                <div class="explore_description">
-                    <ul>
-                        <li>Las Meninas is a 1656 painting 
-                            by Diego Velázquez, the leading artist 
-                            of the Spanish Golden Age.</li>
-                        <li>It was cleaned in 1984 to 
-                            remove a "yellow veil" of dust that had 
-                            gathered since the previous restoration 
-                            in the 19th century.</li>
-                        <li>The cleaning provoked furious protests, 
-                            not because the picture had been damaged 
-                            in any way, but because it looked different.</li>
-                    </ul>
+                <div class="explore__description">
+                    <p>Las Meninas is a 1656 painting 
+                        by Diego Velázquez, the leading artist 
+                        of the Spanish Golden Age.</p>
+                    <p>It was cleaned in 1984 to 
+                        remove a "yellow veil" of dust that had 
+                        gathered since the previous restoration 
+                        in the 19th century.</p>
+                    <p>The cleaning provoked furious protests, 
+                        not because the picture had been damaged 
+                        in any way, but because it looked different.</p>
                 </div>
             </div>
         </section>
 
         <section class="video" id="video">
             <div class="wrapper">
-                <h2>Video journey</h2>
-                <div class="video_description">
+                <div class="video__description">
+                    <h2>Video journey</h2>
+                    <p>Enter and visit one of the most famous museums 
+                        in the world and enjoy masterpieces such as 
+                        Mona Lisa or Hammurabi's Code</p>
                 </div>
                 <div class="video_main">
                     <video></video>
                 </div>
-                <div class="video_slider">
-
+                <div class="video_selector">
+                    <video></video>
+                    <video></video>
+                    <video></video>
                 </div>
                 <div class="video_pagination">
 
@@ -127,7 +150,7 @@
         <section class="gallery" id="gallery">
             <div class="wrapper">
             <h3>Art Gallery</h3>
-            <div class="gallery_grid">
+            <div class="gallery__column-3-grid">
 
             </div>
             </div>
@@ -137,24 +160,24 @@
             <div class="wrapper">
             <h2>BUY TICKETS</h2>
             <img>
-            <div class="tickets_type">
+            <div class="tickets__type">
                 <p>Ticket Type</p>
                 <radio>Permanent exhibition</radio>
                 <radio>Temporary exhibition</radio>
                 <radio>Combined Admission</radio>
             </div>
-            <div class="tickets_amount">
+            <div class="tickets__amount">
                 <p>Amount</p>
                 <p>Basic 18+</p>
-                <div class="tickets_plus_minus"></div>
+                <div class="tickets__plus_minus"></div>
                 <p>Senior 65+</p>
-                <div class="tickets_plus_minus"></div>
+                <div class="tickets__plus_minus"></div>
                 <p>Total</p>
                 <p>$220</p>
             </div>
-            <button class="tickets_buy"></button>
+            <button class="tickets__buy"></button>
             </div>
-            <div class="tickets_parallax">
+            <div class="tickets__parallax">
                 <img src="./assets/img/parallax.jpg" alt="parallax">
             </div>
         </section>
@@ -163,11 +186,9 @@
             <div class="wrapper">
             <h2>Contacts</h2>
             <h6>Palais Royal<br>Musee du Louvre</h6>
-            <ul class="contacts_data">
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <p>address: 75001 Paris, France</p>
+            <a href="tel: +330140205050">phone: +33(0) 1 40 20 50 50</a>
+            <a href="mailto: info@louvre.fr">mail: info@louvre.fr</a>
             <div class="contacts_map">
 
             </div>
@@ -192,15 +213,15 @@
                     </ul>
                 </div>
                 <div class="footer_icons">
-                    <a href="index.html" class="footer_icon"><img src="./assets/img/logo.svg" alt="youtube">
-                    <a href="index.html" class="footer_icon"><img src="./assets/img/logo.svg" alt="instagram">
-                    <a href="index.html" class="footer_icon"><img src="./assets/img/logo.svg" alt="facebook">
-                    <a href="index.html" class="footer_icon"><img src="./assets/img/logo.svg" alt="twitter">
-                    <a href="index.html" class="footer_icon"><img src="./assets/img/logo.svg" alt="pinterest">
+                    <a href="index.html" class="footer_icon"><img src="./assets/img/footer/youtube.svg" alt="youtube"></a>
+                    <a href="index.html" class="footer_icon"><img src="./assets/img/footer/instagram.svg" alt="instagram"></a>
+                    <a href="index.html" class="footer_icon"><img src="./assets/img/footer/facebook.svg" alt="facebook"></a>
+                    <a href="index.html" class="footer_icon"><img src="./assets/img/footer/twitter.svg" alt="twitter"></a>
+                    <a href="index.html" class="footer_icon"><img src="./assets/img/footer/pinterest.svg" alt="pinterest"></a>
                 </div>
             </div>
             <div class="footer_credits">
-                <p>© 2021</p>
+                <p>© 2025</p>
                 <p>The Rolling Scopes School</p>
                 <p>lonky</p>
             </div>
