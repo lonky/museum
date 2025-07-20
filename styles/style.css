@@ -339,8 +339,35 @@ hr {
     height: 735px;
 }
 
+.video__selector {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 127px;
+}
+
 .gallery {
     background: #030303;
+}
+
+.gallery__column-3-grid {
+    margin-top: 75px;
+    height: 1960px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery_column_1 {
+    padding-top: 50px;
+}
+
+.gallery_column_3 {
+    padding-top: 50px;
+}
+
+.galery_image {
+    padding-bottom: 24px;
 }
 
 .tickets {}
