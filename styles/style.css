@@ -316,6 +316,29 @@ hr {
 
 .video {}
 
+.video__description {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+
+.video__text {
+    padding-top: 80px;
+    max-width: 720px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38.5px;
+    /* 175% */
+}
+
+.video_main {
+    width: 1440px;
+    height: 735px;
+}
+
 .gallery {
     background: #030303;
 }
