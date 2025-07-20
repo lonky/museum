@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 10px;
+    letter-spacing: 2px;
+    max-width: 1920px;
+    margin: auto;
+    scroll-behavior: smooth;
+}
+
 body,
 h1,
 h2,
@@ -15,19 +23,36 @@ p {
 
 .wrapper {
     margin: auto;
-    max-width: 1276px;
-}
-
-html {
-    font-size: 10px;
-    letter-spacing: 2px;
     max-width: 1440px;
-    margin: auto;
-    scroll-behavior: smooth;
 }
 
 header {
     background: #030303;
+    height: 150px;
+    align-content: center;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation__link {
+    margin-left: 55px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 2px;
 }
 
 h1 {
@@ -87,7 +112,6 @@ h5 {
     text-transform: uppercase;
 }
 
-
 .explore__description {
     color: #FFF;
     font-family: Roboto;
@@ -120,7 +144,15 @@ footer {
     background: #030303;
 }
 
+.logo {
+    display: flex;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .logo_title {
+    padding-top: 9px;
+    margin-left: 25px;
     color: #FFF;
     font-family: Forum;
     font-size: 28px;
@@ -133,6 +165,17 @@ footer {
 
 .welcome {
     background: #030303;
+    height: 842px;
+}
+
+.welcome__wrapper {
+    background-image: url(../assets/img/welcome-slider/1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.welcome__content {
+    height: 750px;
 }
 
 .visiting {}
