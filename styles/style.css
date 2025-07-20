@@ -37,6 +37,7 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+
 .navigation {
     display: flex;
     list-style: none;
@@ -56,6 +57,7 @@ header {
 }
 
 h1 {
+    padding-top: 150px;
     color: #FFF;
     font-family: Forum;
     font-size: 80px;
@@ -92,6 +94,8 @@ h3 {
 }
 
 h4 {
+    padding-top: 25px;
+    margin-bottom: 75px;
     color: #FFF;
     font-family: Roboto;
     font-size: 28px;
@@ -165,17 +169,53 @@ footer {
 
 .welcome {
     background: #030303;
-    height: 842px;
+    height: 810px;
 }
 
 .welcome__wrapper {
-    background-image: url(../assets/img/welcome-slider/1.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
 }
 
 .welcome__content {
+    position: absolute;
+    z-index: 1;
+}
+
+.welcome__background {
+
+    /* background-image: url(../assets/img/welcome-slider/1.jpg); */
+    /* background-repeat: no-repeat; */
+    background: linear-gradient(90deg, #000 0%, rgba(0, 0, 0, 0.50) 16.19%, rgba(0, 0, 0, 0.00) 30.73%), url(../assets/img/welcome-slider/1.jpg) lightgray 100% / cover no-repeat;
+    width: 1000px;
     height: 750px;
+    background-position: right;
+    position: absolute;
+    right: 0;
+}
+
+.welcome__button {
+    height: 75px;
+    width: 360px;
+    border-style: none;
+    border-radius: 10px;
+    background: #710707;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.welcome__button:hover {
+    background: #9D8665;
+    transition: all .3s;
 }
 
 .visiting {}
