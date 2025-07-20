@@ -256,32 +256,32 @@
         <section class="tickets" id="tickets">
             <div class="wrapper">
                 <h2>BUY TICKETS</h2>
-                <hr/>
+                <hr />
                 <div class="tickets_content">
-                <div class="tickets__image"></div>
-                <div class="tickets__type">
-                    <form action="test">
-                    <p class="tickets__radio_tile">Ticket Type</p>
-                    <input type="radio" id="perm" name="ticket" value="perm" checked>
-                    <label class="radio_label" for="perm">Permanent exhibition</label><br>
-                    <input type="radio" id="temp" name="ticket" value="temp">
-                    <label class="radio_label" for="temp">Temporary exhibition</label><br>
-                    <input type="radio" id="comb" name="ticket" value="comb">
-                    <label class="radio_label" for="comb">Combined Admission</label>
-                    </form>
+                    <div class="tickets__image"></div>
+                    <div class="tickets__type">
+                        <form action="test">
+                            <p class="tickets__radio_tile">Ticket Type</p>
+                            <input type="radio" id="perm" name="ticket" value="perm" checked>
+                            <label class="radio_label" for="perm">Permanent exhibition</label><br>
+                            <input type="radio" id="temp" name="ticket" value="temp">
+                            <label class="radio_label" for="temp">Temporary exhibition</label><br>
+                            <input type="radio" id="comb" name="ticket" value="comb">
+                            <label class="radio_label" for="comb">Combined Admission</label>
+                        </form>
+                    </div>
+                    <div class="tickets__amount">
+                        <p class="tickets__radio_tile">Amount</p>
+                        <p class="radio_label">Basic 18+</p>
+                        <div class="tickets__plus_minus"></div>
+                        <p class="radio_label">Senior 65+</p>
+                        <div class="tickets__plus_minus"></div>
+                        <p class="tickets__radio_tile">Total</p>
+                        <p class="tickets__radio_tile">$220</p>
+                        <button class="tickets__buy_button">Buy Now</button>
+                    </div>
                 </div>
-                <div class="tickets__amount">
-                    <p class="tickets__radio_tile">Amount</p>
-                    <p class="radio_label">Basic 18+</p>
-                    <div class="tickets__plus_minus"></div>
-                    <p class="radio_label">Senior 65+</p>
-                    <div class="tickets__plus_minus"></div>
-                    <p class="tickets__radio_tile">Total</p>
-                    <p class="tickets__radio_tile">$220</p>
-                    <button class="tickets__buy_button">Buy Now</button>
-                </div>
-                </div>
-                
+
             </div>
             <div class="tickets__parallax"></div>
         </section>
@@ -289,15 +289,15 @@
         <section class="contacts" id="contacts">
             <div class="wrapper">
                 <h2>Contacts</h2>
-                <hr/>
+                <hr />
                 <div class="contacts__content">
                     <div class="contacts__desc">
-                <h6>Palais Royal<br>Musee du Louvre</h6>
-                <p class="contacts__addr">address: 75001 Paris, France</p>
-                <a class="contacts__link" href="tel: +330140205050">phone: +33(0) 1 40 20 50 50</a><br>
-                <a class="contacts__link" href="mailto: info@louvre.fr">mail: info@louvre.fr</a>
-                </div>
-                <div class="contacts_map"></div>
+                        <h6>Palais Royal<br>Musee du Louvre</h6>
+                        <p class="contacts__addr">address: 75001 Paris, France</p>
+                        <a class="contacts__link" href="tel: +330140205050">phone: +33(0) 1 40 20 50 50</a><br>
+                        <a class="contacts__link" href="mailto: info@louvre.fr">mail: info@louvre.fr</a>
+                    </div>
+                    <div class="contacts_map"></div>
                 </div>
             </div>
         </section>
@@ -306,36 +306,48 @@
     <footer>
         <div class="wrapper">
             <div class="footer_main">
-                <a href="index.html" class="logo"><img src="./assets/img/logo.svg" alt="Louvre">
-                    <div class="footer_navigation">
-                        <ul>
-                            <li><a href="#visiting">Visiting</a></li>
-                            <li><a href="#explore">Explore</a></li>
-                            <li><a href="#video">Video</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="#gallery">Gallery</a></li>
-                            <li><a href="#tickets">Tickets</a></li>
-                            <li><a href="#contacts">Contacts</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer_icons">
-                        <a href="index.html" class="footer_icon"><img src="./assets/img/footer/youtube.svg"
-                                alt="youtube"></a>
-                        <a href="index.html" class="footer_icon"><img src="./assets/img/footer/instagram.svg"
-                                alt="instagram"></a>
-                        <a href="index.html" class="footer_icon"><img src="./assets/img/footer/facebook.svg"
-                                alt="facebook"></a>
-                        <a href="index.html" class="footer_icon"><img src="./assets/img/footer/twitter.svg"
-                                alt="twitter"></a>
-                        <a href="index.html" class="footer_icon"><img src="./assets/img/footer/pinterest.svg"
-                                alt="pinterest"></a>
-                    </div>
+                <!-- <div class="footer_left"> -->
+                <div class="footer_logo">
+                    <a href="index.html" class="logo footer__logo"><img class="logo_img_footer"
+                            src="./assets/img/logo.svg" alt="Louvre">
+                        <p class="logo_title">Louvre</p>
+                    </a>
+                </div>
+                <div class="footer_navigation_1">
+                    <ul>
+                        <li><a class="footer_link" href="#visiting">Visiting</a></li>
+                        <li><a class="footer_link" href="#explore">Explore</a></li>
+                        <li><a class="footer_link" href="#video">Video</a></li>
+                    </ul>
+                </div>
+                <div class="footer_navigation_2">
+                    <ul>
+                        <li><a class="footer_link" href="#gallery">Gallery</a></li>
+                        <li><a class="footer_link" href="#tickets">Tickets</a></li>
+                        <li><a class="footer_link" href="#contacts">Contacts</a></li>
+                    </ul>
+                </div>
+                <!-- </div> -->
+                <div class="footer_icons">
+                    <a href="https://www.youtube.com/user/louvre" target="_blank" class="footer_icon"><img
+                            src="./assets/img/footer/youtube.svg" alt="youtube"></a>
+                    <a href="https://www.instagram.com/museelouvre/" target="_blank" class="footer_icon"><img
+                            src="./assets/img/footer/instagram.svg" alt="instagram"></a>
+                    <a href="https://www.facebook.com/museedulouvre" target="_blank" class="footer_icon"><img
+                            src="./assets/img/footer/facebook.svg" alt="facebook"></a>
+                    <a href="http://twitter.com/museelouvre" target="_blank" class="footer_icon"><img
+                            src="./assets/img/footer/twitter.svg" alt="twitter"></a>
+                    <a href="https://www.pinterest.fr/museedulouvre/" target="_blank" class="footer_icon"><img
+                            src="./assets/img/footer/pinterest.svg" alt="pinterest"></a>
+                </div>
             </div>
+        </div>
+        <hr class="footer__hr" />
+        <div class="wrapper">
             <div class="footer_credits">
-                <p>© 2025</p>
-                <p>The Rolling Scopes School</p>
-                <p>lonky</p>
+                <p class="footer_credit">© 2025</p>
+                <p class="footer_credit">The Rolling Scopes School</p>
+                <p class="footer_credit">lonky</p>
             </div>
         </div>
     </footer>
