@@ -54,6 +54,17 @@ header {
     font-weight: 200;
     line-height: normal;
     letter-spacing: 2px;
+    transition: all .2s;
+}
+
+.navigation__link:hover {
+    color: #9D8665;
+    transition: all .2s;
+}
+
+.navigation__link:active {
+    color: #7E6C51;
+    transition: all .2s;
 }
 
 h1 {
@@ -70,6 +81,7 @@ h1 {
 }
 
 h2 {
+    padding-top: 75px;
     color: #9D8665;
     font-family: Forum;
     font-size: 80px;
@@ -82,6 +94,8 @@ h2 {
 }
 
 h3 {
+    padding-top: 75px;
+    margin-bottom: 25px;
     color: #FFF;
     font-family: Forum;
     font-size: 80px;
@@ -124,24 +138,6 @@ h5 {
     font-weight: 300;
     line-height: 38.5px;
     /* 175% */
-}
-
-.card_description_360 {
-    color: #000;
-    font-family: Roboto;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: normal;
-}
-
-.card_description_panorama {
-    color: #000;
-    font-family: Roboto;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: normal;
 }
 
 footer {
@@ -218,7 +214,84 @@ footer {
     transition: all .3s;
 }
 
-.visiting {}
+.visiting {
+    height: 1266px;
+}
+
+hr {
+    margin: 25px 0 0 0;
+    border: none;
+    border-top: 3px solid #710707;
+}
+
+.explore_hr {
+    margin: 0;
+    border: none;
+    border-top: 3px solid #710707;
+    max-width: 660px;
+}
+
+.hr_card {
+    margin: 10px 0;
+    border: none;
+    border-top: 2px solid #710707;
+    width: 300px;
+    transition: all .3s;
+}
+
+.card_link:hover .hr_card {
+    width: 100%;
+}
+
+.visiting__layout-3-column {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.visiting__card {
+    width: 440px;
+    height: 424px;
+}
+
+.visiting__image {
+    margin-bottom: 25px;
+}
+
+.card_link {
+    margin-top: 75px;
+    text-decoration: none;
+}
+
+.card_title {
+    color: #000;
+    font-family: Forum;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.card_description_360 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.card_description_panorama {
+    padding-top: 10px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
 
 .explore {
     background: #030303;
