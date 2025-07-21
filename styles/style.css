@@ -472,7 +472,7 @@ input:checked {
 
 .tickets__parallax {
     background: url(../assets/img/parallax.jpg) 100% / cover no-repeat;
-    width: 1920px;
+    max-width: 1920px;
     height: 400px;
     background-attachment: fixed;
 }
